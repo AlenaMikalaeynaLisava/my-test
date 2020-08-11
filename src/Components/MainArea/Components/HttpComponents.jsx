@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
 //import PropTypes from 'prop-types'
-//import ApiRequestComponent from '../../../ApiRequest/ApiRequestComponent';
 
 
 
@@ -22,13 +21,7 @@ export default class HttpComponent extends Component{
                     <li>Link:{this.props.link}</li>
                 </ul>
             
-                {/* <ul> 
-                    {requestApiResult.length > 0
-                        ? requestApiResult.map((requestApiResult) => (
-                            <ApiRequestComponent key={requestApiResult.id} categories={requestApiResult.categories} query={requestApiResult.query} />
-                        ))
-                        : "no request found"}
-                </ul>  */}
+
             </div>
         
         )
